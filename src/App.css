@@ -1,0 +1,12 @@
+body {
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+  font-size: 18px;
+}
+
+/* テーマカラー*/
+:root {
+  --theme-color-hue: 200;
+}

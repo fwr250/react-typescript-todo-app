@@ -1,0 +1,74 @@
+.Button {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  width: 100%;
+  height: 60px;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: bold;
+  border: 2px dashed hsl(0, 0%, 40%);
+  background: #fff;
+  color: hsl(0, 0%, 40%);
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  position: relative;
+  transition-duration: .4s;
+}
+
+.add:hover {
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  border: 2px solid hsl(0, 0%, 40%);
+  transition-duration: .4s;
+}
+
+.add-icon {
+  position: absolute;
+  display: inline-block;
+  top: 8px;
+  left: 180px;
+  z-index: -1;
+  line-height: 60px;
+  transform: translateY(2px);
+  transition: transform .1s ease-in-out;
+}
+
+.add:hover .add-icon {
+  line-height: 60px;
+  z-index: 0;
+  transform: translateY(0px);
+}
+
+.icon {
+  margin: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: none;
+  transition-duration: .4s;
+}
+
+.icon:hover {
+  background: hsl(0, 0%, 90%);
+}
+
+.icon:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px hsl(0, 0%, 10%);
+  border-bottom: none;
+}

@@ -1,0 +1,21 @@
+header {
+    background-color: #fff;
+    height: 70px;
+    line-height: 70px;
+    text-align: left;
+    color: hsl(var(--theme-color-hue), 70%, 60%);
+    border-bottom: 4px double hsl(0, 0%, 60%);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 600px;
+    height: 95px;
+}
+
+h1 {
+    margin: 10px;
+    letter-spacing: 0.3em
+}
