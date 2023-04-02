@@ -12,26 +12,26 @@ JSONServerが必要です。
 1.このリポジトリをクローンします。
 ```bash
 git clone https://github.com/<your-username>/react-typescript-todo-app.git
-```bash
+```
 
 2.リポジトリのディレクトリに移動します。
 ```bash
 cd react-typescript-todo-app
-```bash
+```
 
 3.パッケージをインストールおよび起動します。
 ```bash
  npm install
- ```bash
+ ```
  ```bash
 npm start
-```bash
+```
 http://localhost:3000 にて　TODO リスト管理アプリが立ち上がることを確認します。
 
 4.json-serverインストールします。
 ```bash
 npm install @types/json-server --save-dev
-```bash
+```
 
 5.db.json ファイルを作成します。このファイルには、TODO リストのデータが含まれます。
 ```bash
@@ -54,11 +54,11 @@ npm install @types/json-server --save-dev
     }
   ]
 }
-```bash
+```
 
 6.JSON Server を起動します。
 
 ```bash
 npm run start-mock
-```bash
+```
 JSON Server が起動し、 http://localhost:3001/todos から TODO リストのデータを取得することができるようになります。
