@@ -25,14 +25,14 @@ type TodoItemAPIProps = {
 };
 
 /**
- * Todoリストの親コンポーネント
+ * Todoリストコンポーネント
  */
 export const TodoList: React.FC = () => {
   const [filter, setFilter] = useState('all');
   const [todoList, setTodoList] = useState<TodoListProps[]>([]);
 
   /**
-   * コンポーネントのマウント時、Todoアイテムを取得するための非同期処理を実行する
+   * Todoアイテム取得（コンポーネントマウント時）
    */
   useEffect(() => {
     const fetchTodoList = async () => {
@@ -84,7 +84,7 @@ export const TodoList: React.FC = () => {
   };
 
   /**
-   * Todoアイテム追加関数
+   * Todo空アイテム追加処理
    * @param todo - Todoアイテム
    */
   const addTodo = (todo: string) => {
@@ -96,7 +96,7 @@ export const TodoList: React.FC = () => {
   };
 
   /**
-   * Todoアイテム完了状態切り替え処理
+   * Todoアイテム状態切替処理
    * @param todoId - TodoアイテムID
    */
   const completedTodo = (todoId: number, isCompleted: boolean) => {
@@ -157,7 +157,7 @@ export const TodoList: React.FC = () => {
   };
 
   /**
-   * Todo削除キャンセル処理
+   * Todo削除処理
    * @aparam todoId - TodoアイテムID
    */
   const deleteTodo = (todoId: number) => {
