@@ -21,7 +21,7 @@ cd react-typescript-todo-app
 
 3.パッケージをインストールおよび起動します。
 ```bash
- npm install
+npm install
  ```
  ```bash
 npm start
