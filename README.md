@@ -1,6 +1,5 @@
 # TODO 管理アプリ
 本アプリケーションは、React (TypeScript) を使用して作成した TODO 管理アプリです。
-Create React Appを使った開始方法
 このプロジェクトは、[Create React App](https://github.com/facebook/create-react-app)
 を使って開発しました。
 
