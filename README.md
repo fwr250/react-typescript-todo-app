@@ -32,30 +32,7 @@ http://localhost:3000 にて　TODO リスト管理アプリが立ち上がる�
 npm install @types/json-server --save-dev
 ```
 
-5.db.json ファイルを作成します。このファイルには、TODO リストのデータが含まれます。
-```bash
-{
-  "todos": [
-    {
-      "id": 1,
-      "name": "TODO1",
-      "isCompleted": true
-    },
-    {
-      "id": 2,
-      "name": "TODO2",
-      "isCompleted": false
-    },
-    {
-      "id": 3,
-      "name": "TODO3",
-      "isCompleted": true
-    }
-  ]
-}
-```
-
-6.JSON Server を起動します。
+5.JSON Server を起動します。
 
 ```bash
 npm run start-mock
