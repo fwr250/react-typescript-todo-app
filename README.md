@@ -10,7 +10,7 @@ JSONServerが必要です。
 ## 使用方法
 1.このリポジトリをクローンします。
 ```bash
-git clone https://github.com/<your-username>/react-typescript-todo-app.git
+git clone https://github.com/fwr250/react-typescript-todo-app.git
 ```
 
 2.リポジトリのディレクトリに移動します。
